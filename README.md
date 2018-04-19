@@ -34,3 +34,9 @@ Um passo a passo com conteúdos apresentados nas Talks de Android para criação
         - onDestroy - este método é executado quando a activity está finalizada por alguém ter executado a chamada do método finish(), ou o sistema está 'matando' a activity para liberar espaço de memória, pode ser identificado o motivo pelo qual este método está sendo chamado com o método isFinishing(). Ele pode ser executado quando é trocado o portview do dispositivo, nestes casos, é chamado o método onCreate logo em seguida.
 
         - onRestart - executada quando o usuário está navegando de volta para a activity (após ter sido executado o método onStop pelo sistema). Após ser executado esté método, será executado novamente os métodos onStart() e onResume().
+
+- [Internacionalização](https://developer.android.com/guide/topics/resources/localization.html)
+        - Não são apenas textos que podem ser customizados por localidade, estilos, imagens e demais resources também podem ser reaproveitados dessa forma
+
+- [Storage](https://developer.android.com/guide/topics/data/data-storage.html)
+        - Temos diversas opções de storage para o Android, desde as mais simples com chave/valor, até as mais complexas, todas permitindo a persistência de dados mesmo após o usuário encerrar o aplicativo.
